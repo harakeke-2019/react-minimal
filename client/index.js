@@ -3,4 +3,27 @@ import ReactDOM from 'react-dom'
 
 import Appliance from './components/Appliance'
 
-ReactDOM.render(<Appliance machine = "coffee machine" />, document.getElementById('root'))
+const coffeeMachine =
+  {
+    image: "https://www.alturacoffee.co.nz/site/altura/images/items/silvia_iso_1.jpg",
+    name: "coffee machine", 
+    activity: "make people coffee",
+    emotion: "overworked and dirty",
+    feeling: "used and abused and in desperate need of a wash"
+  }
+
+const fridge =  {
+  image: "http://www.surgicalsojourner.com/wp-content/uploads/2015/09/fridge.jpg",
+  name: "fridge", 
+  activity: "keep people's food cold...like my insides",
+  emotion: "overloaded with other people's rotten avocadoes",
+  feeling: "like a glorified compost bin"
+}
+
+const kitchenware = {
+  coffeeMachine,
+  fridge
+}
+
+
+ReactDOM.render(<Appliance machine = {fridge} />, document.getElementById('root'))

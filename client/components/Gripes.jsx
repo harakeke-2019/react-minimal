@@ -5,7 +5,7 @@ function Gripes (props) {
     <div>
       Every day, I have to {props.activity}. <br />
       I am so {props.emotion}. <br />
-      I feel so {props.feeling}.
+      I feel {props.feeling}.
     </div>
   )
 }
