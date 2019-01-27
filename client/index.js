@@ -1,16 +1,13 @@
-const React = require('react')
-const ReactDOM = require('react-dom')
+// const React = require('react')
+// const ReactDOM = require('react-dom')
 
-const data = {name: 'humans'}
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-function helloTemplate (props) {
-  return (
-    <div>hello {props.name}</div>
+// main app
+import Kiaora from './components/Kiaora'
+
+ReactDOM.render(
+  <Kiaora name="kumaras" />, 
+  document.getElementById('root')
   )
-}
-
-const view = helloTemplate(data)
-
-const placeToMount = document.getElementById('root')
-
-ReactDOM.render(view, placeToMount)
