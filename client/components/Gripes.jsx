@@ -1,8 +1,7 @@
 import React from 'react'
 
-
 class Gripes extends React.Component {
-  render(){
+  render () {
     return (
       <div>
         Every day, I have to {this.props.machineComplaints.activity}. <br />
