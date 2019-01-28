@@ -9,7 +9,9 @@ const coffeeMachine =
     name: "coffee machine", 
     activity: "make people coffee",
     emotion: "overworked and dirty",
-    feeling: "used and abused and in desperate need of a wash"
+    feeling: "used and abused and in desperate need of a wash",
+    isFull: true,
+    contents: ['rotten coffee grinds', 'musty water', 'dirty filters']
   }
 
 const fridge =  {
@@ -17,7 +19,9 @@ const fridge =  {
   name: "fridge", 
   activity: "keep people's food cold...like my insides",
   emotion: "overloaded with other people's rotten avocadoes",
-  feeling: "like a glorified compost bin"
+  feeling: "like a glorified compost bin",
+  isFull: false,
+  contents: ['4 day old salad', 'avocado seeds', 'empty water bottles']
 }
 
 const kitchenware = {
