@@ -1,15 +1,21 @@
-const React = require('react')
-const ReactDOM = require('react-dom')
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-const data = {name: 'humans'}
 
-function helloTemplate (props) {
-  return (
-    <div>hello {props.name}</div>
-  )
+import Welcome from './components/Welcome'
+
+const data = {
+  Humans: {
+    Name: 'John'
+  },
+  Aliens: {
+    Name: 'Thor',
+    Species: 'Asgard'
+    
+  }
 }
 
-const view = helloTemplate(data)
+const view = Welcome(data)
 
 const placeToMount = document.getElementById('root')
 
