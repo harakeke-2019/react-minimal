@@ -8,7 +8,7 @@ const beaches =
 function Hello (props) {
   return (
     <div className="hello">
-      <div>hello {props.name}</div>
+      <div>Hello {props.name}!</div>
       <City name ="Auckland" beachNames = {beaches} />
 
     </div>     
