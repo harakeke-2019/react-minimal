@@ -5,7 +5,7 @@ import Study from './Study'
 function App (props) {
   return (
     <div className = "app">
-      <h1>Shall we go to Beach or go to EDA?  </h1>
+      <h1 className="blue">Shall we go to Beach or go to EDA?  </h1>
       {
         props.goToBeach
           ? <Hello name ="Jenny" />

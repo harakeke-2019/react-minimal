@@ -2,7 +2,7 @@ import React from 'react'
 import City from './City'
 
 const beaches =
-  [ 'longbay', 'piha', 'missionbay']
+  [ 'Longbay', 'Piha', 'Missionbay']
 
 
 function Hello (props) {
