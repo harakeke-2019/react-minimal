@@ -8,6 +8,6 @@ import ReactDOM from 'react-dom'
 import Kiaora from './components/Kiaora'
 
 ReactDOM.render(
-  <Kiaora name="kumaras" />, 
+  <Kiaora name={false} showKumara={false} />, 
   document.getElementById('root')
   )
