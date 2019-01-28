@@ -1,16 +1,10 @@
-const React = require('react')
-const ReactDOM = require('react-dom')
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-const data = {name: 'humans'}
+import HowYouDoing from './components/HowYouDoing'
+import SupGolem from './components/SupGolem'
 
-function helloTemplate (props) {
-  return (
-    <div>hello {props.name}</div>
-  )
-}
 
-const view = helloTemplate(data)
-
-const placeToMount = document.getElementById('root')
-
-ReactDOM.render(view, placeToMount)
+ReactDOM.render(<HowYouDoing name="Ndgdgdvkrsvsvgsr Voldemort" title="Mrs"/>, document.getElementById('root'))
+ReactDOM.render(<SupGolem/>, document.getElementById('rooty'))
+ReactDOM.render(<HeyRasputia/>, document.getElementById('rasputia'))
