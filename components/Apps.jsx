@@ -3,7 +3,7 @@ import Hello from './Hello'
 import Colours from './Colours'
 
 const data = {
-  color: {
+  colgitor: {
     color: 'blue'
   },
   name: 'Grant'
