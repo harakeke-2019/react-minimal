@@ -11,7 +11,7 @@ const coffeeMachine =
     emotion: "overworked and dirty",
     feeling: "used and abused and in desperate need of a wash",
     isFull: true,
-    contents: ['rotten coffee grinds', 'musty water', 'dirty filters']
+    contents: ['rotten coffee grinds', 'musty water', 'dirty filters', 'regret']
   }
 
 const fridge =  {
@@ -30,4 +30,4 @@ const kitchenware = {
 }
 
 
-ReactDOM.render(<Appliance machine = {fridge} />, document.getElementById('root'))
+ReactDOM.render(<Appliance machine = {coffeeMachine} />, document.getElementById('root'))
