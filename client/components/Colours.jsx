@@ -4,9 +4,8 @@ function Colours (props) {
   return (
     <div>
     {props.kumaraColours.map(function(colour) {
-      return <li key={colour} style={{color: colour}}>{colour} kumara</li>
+      return <li key={colour} style={{color: colour}}>{colour}</li>
     })
-
     }
     </div>
   )
