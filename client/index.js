@@ -1,22 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
+import App from './components/App'
 
-import Welcome from './components/Welcome'
-
-const data = {
-  Humans: {
-    Name: 'John'
-  },
-  Aliens: {
-    Name: 'Thor',
-    Species: 'Asgard'
-    
-  }
-}
-
-const view = Welcome(data)
-
-const placeToMount = document.getElementById('root')
-
-ReactDOM.render(view, placeToMount)
+ReactDOM.render(
+  <App showWelcome={false} />,
+  document.getElementById('root')
+)
