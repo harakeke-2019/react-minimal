@@ -3,7 +3,7 @@ import React from 'react'
 import Animal from './Animal'
 import Colors from './Colors'
 
-const primaryColors = ['red', 'blue', 'yellow']
+const primaryColors = ['red', 'blue', 'yellow', 'pink', 'violet', 'orange']
 
 function App (props) {
   return (
