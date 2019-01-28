@@ -3,8 +3,15 @@ import React from 'react'
 function Animals (prop) {
   return (
     <div className="hello">
-      <p>This animal is {prop.names.mamals.tiger.name}</p>
-      <img src={prop.names.mamals.tiger.url} />
+      <div>This animal is {prop.names.map(item => {
+        return (
+          < div key = {item.url}>
+            <p>{ item.name}</p>
+            <img src = {item.url} />
+          </div>
+        )
+      })}</div>
+
     </div>
   )
 }
